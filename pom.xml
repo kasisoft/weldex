@@ -331,15 +331,15 @@
   <distributionManagement>
   
     <snapshotRepository>
-      <id>kasisoft-snapshots</id>
-      <name>kasisoft-snapshots</name>
-      <url>https://kasisoft.com/artifactory/libs-snapshot-local</url>
+      <id>libs-kasisoft</id>
+      <name>libs-kasisoft</name>
+      <url>https://kasisoft.com/artifactory/libs-kasisoft</url>
     </snapshotRepository>
     
     <repository>
-      <id>kasisoft-releases</id>
-      <name>kasisoft-releases</name>
-      <url>https://kasisoft.com/artifactory/libs-release-local</url>
+      <id>libs-kasisoft</id>
+      <name>libs-kasisoft</name>
+      <url>https://kasisoft.com/artifactory/libs-kasisoft</url>
     </repository>
     
   </distributionManagement>
