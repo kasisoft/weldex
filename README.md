@@ -46,7 +46,7 @@ Snapshots can be used while accessing a dedicated maven repository. Your POM nee
      <dependency>
          <groupId>com.kasisoft.cdi</groupId>
          <artifactId>weldex</artifactId>
-         <version>0.2-SNAPSHOT</version>
+         <version>0.3-SNAPSHOT</version>
      </dependency>
      
      <repositories>
