@@ -45,7 +45,7 @@ public class CdiContext {
    * @return   The bean instance. Maybe <code>null</code>.
    */
   public static <R> R component( @NonNull Class<R> type ) {
-    Instance<R> instance = INSTANCE.container.instance().select( type );
+    Instance<R> instance = INSTANCE.container.instance( null ).select( type );
     return instance( type, instance );
   }
 
@@ -57,7 +57,7 @@ public class CdiContext {
    * @return   A set of matching components. Not <code>null</code>.
    */
   public static Set<Object> components( @NonNull Annotation ... annotations ) {
-    Instance<Object> instance = INSTANCE.container.instance().select( annotations );
+    Instance<Object> instance = INSTANCE.container.instance( null ).select( annotations );
     return collect( instance );
   }
 
@@ -69,7 +69,7 @@ public class CdiContext {
    * @return   A set of matching components. Not <code>null</code>.
    */
   public static <R> Set<R> components( @NonNull Class<R> type ) {
-    Instance<R> instance = INSTANCE.container.instance().select( type );
+    Instance<R> instance = INSTANCE.container.instance( null ).select( type );
     return collect( instance );
   }
 
@@ -84,9 +84,9 @@ public class CdiContext {
   public static <R> Set<R> components( @NonNull Class<R> type, @NonNull Annotation ... annotations ) {
     Instance<R> instance = null;
     if( annotations.length > 0 ) {
-      instance = INSTANCE.container.instance().select( type, annotations );
+      instance = INSTANCE.container.instance( null ).select( type, annotations );
     } else {
-      instance = INSTANCE.container.instance().select( type );
+      instance = INSTANCE.container.instance( null ).select( type );
     }
     return collect( instance );
   }
