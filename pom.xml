@@ -44,7 +44,7 @@
     <version-hamcrest>1.3</version-hamcrest>
     <version-kasisoft-common>2.6-SNAPSHOT</version-kasisoft-common>
     <version-lombok>1.16.10</version-lombok>
-    <version-weld>3.0.0.Alpha1</version-weld>
+    <version-weld>2.4.3.Final</version-weld>
     <version-slf4j>1.7.2</version-slf4j>
     <version-testng>6.9.10</version-testng>
     
