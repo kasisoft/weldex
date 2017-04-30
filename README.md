@@ -37,6 +37,12 @@ Releases can be found in Maven Central:
 
 * http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.kasisoft.cdi%22%20AND%20a%3A%22weldex%22
 
+     <dependency>
+       <groupId>com.kasisoft.cdi</groupId>
+       <artifactId>weldex</artifactId>
+       <version>0.2</version>
+     </dependency>
+
 
 Snapshots
 ---------
@@ -44,9 +50,9 @@ Snapshots
 Snapshots can be used while accessing a dedicated maven repository. Your POM needs the following settings:
 
      <dependency>
-         <groupId>com.kasisoft.cdi</groupId>
-         <artifactId>weldex</artifactId>
-         <version>0.3-SNAPSHOT</version>
+       <groupId>com.kasisoft.cdi</groupId>
+       <artifactId>weldex</artifactId>
+       <version>0.3-SNAPSHOT</version>
      </dependency>
      
      <repositories>
