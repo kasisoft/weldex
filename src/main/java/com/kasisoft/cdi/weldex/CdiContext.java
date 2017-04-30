@@ -34,7 +34,6 @@ public class CdiContext {
 
   private CdiContext() {
     weld      = new Weld();
-    Runtime.getRuntime().addShutdownHook( new Thread( weld::shutdown ) );
     container = weld.initialize();
     id        = container.getId();
   }
