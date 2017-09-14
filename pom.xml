@@ -63,7 +63,7 @@
     <version-kcl>2.7</version-kcl>
     <version-lombok>1.16.18</version-lombok>
     <version-weld>2.4.3.Final</version-weld>
-    <version-slf4j>1.7.2</version-slf4j>
+    <version-slf4j>1.7.5</version-slf4j>
     <version-testng>6.9.10</version-testng>
     
     <!-- versioning: plugins -->
