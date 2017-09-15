@@ -40,7 +40,7 @@ Releases can be found in Maven Central:
      <dependency>
        <groupId>com.kasisoft.cdi</groupId>
        <artifactId>weldex</artifactId>
-       <version>0.2</version>
+       <version>0.3</version>
      </dependency>
 
 
@@ -52,7 +52,7 @@ Snapshots can be used while accessing a dedicated maven repository. Your POM nee
      <dependency>
        <groupId>com.kasisoft.cdi</groupId>
        <artifactId>weldex</artifactId>
-       <version>0.3-SNAPSHOT</version>
+       <version>0.4-SNAPSHOT</version>
      </dependency>
      
      <repositories>
