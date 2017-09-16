@@ -1,41 +1,32 @@
-Purpose
-=======
+# Purpose
 
 This library provides some useful helpers allowing to access CDI components.
 
 
-Contact
-=======
 
-* daniel.kasmeroglu@kasisoft.net
+# Infos
 
-
-Requirements
-============
-
- * Java 8
+* [eMail: daniel.kasmeroglu@kasisoft.net](mailto:daniel.kasmeroglu@kasisoft.net)
+* [Jira](https://kasisoft.com/jira/projects/WELDEX)
+* [Jenkins](https://kasisoft.com/jenkins/job/cdi.com.kasisoft.cdi.weldex)
+* [GIT](https://kasisoft.com/bitbucket/projects/CDI/repos/weldex)
 
 
-Jira
-====
-
-* https://kasisoft.com/jira/projects/WELDEX/issues
-
-
-Maven
-=====
+# Development Setup
 
 I assume that you're familiar with Maven. If not I suggest to visit the following page:
 
 * https://maven.apache.org/
 
 
-Releases
---------
+## Requirements
 
-Releases can be found in Maven Central:
+* Java 8
 
-* http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.kasisoft.cdi%22%20AND%20a%3A%22weldex%22
+
+## Maven
+
+### Releases
 
      <dependency>
        <groupId>com.kasisoft.cdi</groupId>
@@ -44,8 +35,7 @@ Releases can be found in Maven Central:
      </dependency>
 
 
-Snapshots
----------
+### Snapshots
 
 Snapshots can be used while accessing a dedicated maven repository. Your POM needs the following settings:
 
@@ -70,8 +60,7 @@ Snapshots can be used while accessing a dedicated maven repository. Your POM nee
      
      
 
-License
-=======
+# License
 
 MIT License
 
