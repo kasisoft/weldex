@@ -13,7 +13,7 @@
   
   <groupId>com.kasisoft.cdi</groupId>
   <artifactId>weldex</artifactId>
-  <version>0.4</version>
+  <version>0.5-SNAPSHOT</version>
 
   <name>CDI :: Weld Extensions</name>
   <url>https://kasisoft.com/bitbucket/projects/GRAV/repos/weldex</url>
