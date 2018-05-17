@@ -1,7 +1,10 @@
+# DISCONTINUED
+# DISCONTINUED
+# DISCONTINUED
+
 # Purpose
 
 This library provides some useful helpers allowing to access CDI components.
-
 
 
 # Infos
