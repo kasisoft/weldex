@@ -10,9 +10,7 @@ This library provides some useful helpers allowing to access CDI components.
 # Infos
 
 * [eMail: daniel.kasmeroglu@kasisoft.net](mailto:daniel.kasmeroglu@kasisoft.net)
-* [Jira](https://kasisoft.com/jira/projects/WELDEX)
-* [Jenkins](https://kasisoft.com/jenkins/job/cdi.com.kasisoft.cdi.weldex)
-* [GIT](https://kasisoft.com/bitbucket/projects/CDI/repos/weldex)
+* [GIT](https://kasisoft.com/bitbucket/projects/GRAV/repos/weldex)
 
 
 # Development Setup
